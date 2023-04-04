@@ -38,6 +38,8 @@ nav ul li a:hover{
     color:#0097B2;
     text-shadow: 0 0 30px rgba(0, 151, 178, .4);
 }
+
+ 
 /* style to info*/
 .info{
     margin-left: 8%;
@@ -117,3 +119,127 @@ span{
 .images:hover .myself{
     left: 45%;
 }
+/*Contact page*/
+.formContaier {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    font-size: medium;
+  }
+  .Container1{
+    padding: 50px;
+    width: 50%;
+    margin-left: 20%;
+  }
+
+  input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+    font-size: medium;
+  }
+
+  input[type=email]{
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+    font-size: medium;
+  }
+  
+  input[type=submit] {
+    background: black;
+    padding: 12px 20px;
+    border: none;
+    text-decoration: none;
+    font-weight: bold;
+    color: rgba(255, 255, 255, 0.8);
+    display: inline-block;
+    margin:30px 0;
+    border-radius: 4px;
+    transition: all 0.2s ease-in-out;
+    cursor: pointer;
+  }
+  
+  input[type=submit]:hover {
+    background-color: #0097B2;
+    box-shadow: 0 0 30px rgba(0, 151, 178, .4);
+  }
+
+  .icon .fa{
+    padding: 12px;
+    font-size: 40px;
+    width: 40px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+  }
+  
+  .fa:hover {
+      opacity: 0.7;
+  }
+  
+  .fa-facebook {
+    background: #3B5998;
+    color: white;
+    margin-left: 12%;
+    margin-top: 4%;
+  }
+  .fa-instagram {
+    background: #E1306C;
+    color: white;
+    margin-left: 10%;
+    
+  }
+  .fa-linkedin {
+    background: #007bb5;
+    color: white;
+    margin-left: 12%;
+    margin-top: 2%;
+  }
+  
+  .fa-github {
+    background: black;
+    color: white;
+    margin-left: 10.5%;
+    margin-top: 2%;
+  }
+  
+
+
+.conImg{
+    width: 45%;
+    height: 48%;
+    position: absolute;
+    bottom: 0;
+ 
+}
+
+.conImg img{
+
+    position: absolute;
+    bottom: 0;
+    
+}
+.conImg .myself1{
+    border-radius: 20%;
+    top: -51.1%;
+    height: 145%;
+    margin-left: 140%;
+
+}
+.conImg .shape1{
+    height: 135%;
+    margin-left: 133%;
+    
+}
+  
+  

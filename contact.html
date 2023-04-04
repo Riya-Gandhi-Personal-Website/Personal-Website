@@ -17,6 +17,7 @@
   <link rel="icon" type="image/x-icon" href="images/LOGO.png">
   <!-- internal style for whole page-->
   <style>
+    /* style to all elements*/
     * {
       margin: 0;
       padding: 0;
@@ -35,38 +36,45 @@
       <li><a href="contact" style="color:orange;">CONTACT</a></li>
     </ul>
   </nav>
+  <!--header of the page-->
   <h1 style="font-size: 450%; margin-left: 22%; margin-top: 8%"> Contact </h1>
+  <!--horizontal line with inline style-->
   <hr style="border-width: 3px; border-color: #0097B2; margin-left:20%; margin-right:59.5%">
   <div class="icon">
-    <!-- Add font awesome icons -->
-    <a href="#" style="font-size: 200%; text-decoration: none; color: black;"><p class="fa fa-facebook"></p> Facebook </a>
-    <a href="#" style="font-size: 200%; text-decoration: none; color: black;"><p class="fa fa-instagram"></p> Instagram </a> <br />
-    <a href="https://www.linkedin.com/in/riyagandhi61/" style="font-size: 200%; text-decoration: none; color: black;"><p class="fa fa-linkedin"></p> LinkedIn </a>
-    <a href="https://github.com/riyagandhi-2023" style="font-size: 200%; text-decoration: none; color: black;"><p class="fa fa-github"></p> GitHub </a>
-
-
+    <!-- Added social media icons -->
+    <a href="#" style="font-size: 200%; text-decoration: none; color: black;">
+      <p class="fa fa-facebook"></p> Facebook
+    </a>
+    <a href="#" style="font-size: 200%; text-decoration: none; color: black;">
+      <p class="fa fa-instagram"></p> Instagram
+    </a> <br />
+    <a href="https://www.linkedin.com/in/riyagandhi61/" style="font-size: 200%; text-decoration: none; color: black;">
+      <p class="fa fa-linkedin"></p> LinkedIn
+    </a>
+    <a href="https://github.com/riyagandhi-2023" style="font-size: 200%; text-decoration: none; color: black;">
+      <p class="fa fa-github"></p> GitHub
+    </a>
   </div>
   <!--image of the page-->
   <div class="conImg">
     <img src="images/shape.png" alt="shape" class="shape1">
     <img src="images/MySelf.png" alt="myshelf" class="myself1">
   </div>
-  <hr style="border-width: 1px; border-color: #0097B2; margin-top: 10%">
-  
+  <hr style="border-width: 1px; border-color: #0097B2; margin-top: 10%"> <!--horizontal line with inline style-->
 
+  <!--Contact form-->
   <div class="formContaier">
     <form onsubmit="submitForm(); return false">
-      
       <div class="Container1">
         <h2 style="font-size: 185%;"> Send me an email</h2> <br />
-      <label for="name">Name</label>
-      <input type="text" id="name" name="name" placeholder="Your name">
-      <label for="email">Email</label>
-      <input type="email" id="email" name="email" placeholder="abc@xyc.com">
-      <label for="message">Message</label>
-      <textarea id="message" name="message" placeholder="Write something.." style="height:200px"></textarea>
-      <input type="submit" value="Submit">
-    </div>
+        <label for="name">Name</label>
+        <input type="text" id="name" name="name" placeholder="Your name">
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email" placeholder="abc@xyc.com">
+        <label for="message">Message</label>
+        <textarea id="message" name="message" placeholder="Write something.." style="height:200px"></textarea>
+        <input type="submit" value="Submit">
+      </div>
     </form>
   </div>
 

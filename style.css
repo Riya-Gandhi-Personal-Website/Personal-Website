@@ -1,5 +1,5 @@
 /* style for logo*/
-.logo{
+.logo {
     position: relative;
     width: 10%;
     height: 10vh;
@@ -8,18 +8,19 @@
 
 
 /* style for the navigation (menu list) */
-nav{
+nav {
     display: flex;
     width: 84%;
     margin: auto;
     padding: 20px 0;
     align-items: left;
     justify-content: space-between;
-   
+
 }
+
 /* style for the menu of unorder list */
-nav ul li{
-    float:left;
+nav ul li {
+    float: left;
     list-style: none;
     margin-top: 10px;
     margin-bottom: 10px;
@@ -27,41 +28,43 @@ nav ul li{
     font-size: larger;
 
 }
+
 /* style for the link of menubar*/
-nav ul li a{
+nav ul li a {
     text-decoration: none;
     color: black;
     font-weight: bold;
 }
+
 /* style for the mouse hover*/
-nav ul li a:hover{
-    color:#0097B2;
+nav ul li a:hover {
+    color: #0097B2;
     text-shadow: 0 0 30px rgba(0, 151, 178, .4);
 }
 
- 
+
 /* style to info*/
-.info{
+.info {
     margin-left: 8%;
     margin-top: 10%;
 }
 
-.info h1{
+.info h1 {
     font-size: 50px;
     color: black;
     margin-bottom: 20px;
 }
 
-span{
-    color:#0097B2;
+span {
+    color: #0097B2;
 }
 
-.info p{
-    color:black;
+.info p {
+    color: black;
     font-size: large;
 }
 
-.info a{
+.info a {
     background: black;
     padding: 10px 18px;
     text-decoration: none;
@@ -69,69 +72,77 @@ span{
     color: rgba(255, 255, 255, 0.8);
     background: black;
     display: inline-block;
-    margin:30px 0;
+    margin: 30px 0;
     border-radius: 5px;
     transition: all 0.2s ease-in-out;
 }
 
-.info .btn{
+.info .btn {
     color: rgba(255, 255, 255, 1);
-    
+
 }
-.info  .btn:hover{
+
+.info .btn:hover {
     background-color: #0097B2;
     box-shadow: 0 0 30px rgba(0, 151, 178, .4);
 }
-.images{
+
+.images {
     width: 45%;
     height: 48%;
     position: absolute;
     bottom: 0;
     right: 100px;
- 
+
 }
 
-.images img{
+.images img {
 
     position: absolute;
     left: 50%;
     bottom: 0;
     transform: translateX(-50%);
     transition: bottom 1s, left 1s;
-    
+
 }
-.images .myself{
+
+.images .myself {
     border-radius: 20%;
     top: -55%;
     height: 145%;
 
 }
-.images .shape{
+
+.images .shape {
     height: 175%;
     margin-top: 350%;
-    
+
 }
 
-.images:hover .shape{
+.images:hover .shape {
     bottom: 30px;
 }
 
-.images:hover .myself{
+.images:hover .myself {
     left: 45%;
 }
+
 /*Contact page*/
 .formContaier {
     border-radius: 5px;
     background-color: #f2f2f2;
     font-size: medium;
-  }
-  .Container1{
+}
+
+.Container1 {
     padding: 50px;
     width: 50%;
     margin-left: 20%;
-  }
+}
 
-  input[type=text], select, textarea {
+input[type=text],
+select,
+textarea {
     width: 100%;
     padding: 12px;
     border: 1px solid #ccc;
@@ -141,9 +152,9 @@ span{
     margin-bottom: 16px;
     resize: vertical;
     font-size: medium;
-  }
+}
 
-  input[type=email]{
+input[type=email] {
     width: 100%;
     padding: 12px;
     border: 1px solid #ccc;
@@ -153,9 +164,9 @@ span{
     margin-bottom: 16px;
     resize: vertical;
     font-size: medium;
-  }
-  
-  input[type=submit] {
+}
+
+input[type=submit] {
     background: black;
     padding: 12px 20px;
     border: none;
@@ -163,83 +174,208 @@ span{
     font-weight: bold;
     color: rgba(255, 255, 255, 0.8);
     display: inline-block;
-    margin:30px 0;
+    margin: 30px 0;
     border-radius: 4px;
     transition: all 0.2s ease-in-out;
     cursor: pointer;
-  }
-  
-  input[type=submit]:hover {
+}
+
+input[type=submit]:hover {
     background-color: #0097B2;
     box-shadow: 0 0 30px rgba(0, 151, 178, .4);
-  }
+}
 
-  .icon .fa{
+.icon .fa {
     padding: 12px;
     font-size: 40px;
     width: 40px;
     text-align: center;
     text-decoration: none;
     border-radius: 50%;
-  }
-  
-  .fa:hover {
-      opacity: 0.7;
-  }
-  
-  .fa-facebook {
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
     background: #3B5998;
     color: white;
     margin-left: 12%;
     margin-top: 4%;
-  }
-  .fa-instagram {
+}
+
+.fa-instagram {
     background: #E1306C;
     color: white;
     margin-left: 10%;
-    
-  }
-  .fa-linkedin {
+
+}
+
+.fa-linkedin {
     background: #007bb5;
     color: white;
     margin-left: 12%;
     margin-top: 2%;
-  }
-  
-  .fa-github {
+}
+
+.fa-github {
     background: black;
     color: white;
     margin-left: 10.5%;
     margin-top: 2%;
-  }
-  
+}
 
 
-.conImg{
+
+.conImg {
     width: 45%;
     height: 48%;
     position: absolute;
     bottom: 0;
- 
+
 }
 
-.conImg img{
+.conImg img {
 
     position: absolute;
     bottom: 0;
-    
+
 }
-.conImg .myself1{
+
+.conImg .myself1 {
     border-radius: 20%;
     top: -51.1%;
     height: 145%;
     margin-left: 140%;
 
 }
-.conImg .shape1{
+
+.conImg .shape1 {
     height: 135%;
     margin-left: 133%;
-    
+
 }
+
+/*Portfolio style*/
+
+.projectline {
+    position: relative;
+    max-width: 900px;
+    margin: 5% 2% 0 21.5%;
+}
+.projectline::after {
+    content: '';
+    position: absolute;
+    width: 6px;
+    background-color: black;
+    top: 0;
+    bottom: 0;
+    left: 50%;
+    margin-left: -3px;
+  }
+  /* Container around content */
+.container {
+    padding: 10px 40px;
+    position: relative;
+    background-color: inherit;
+    width: 50%;
+  }
   
+  /* The circles on the projectline */
+  .container::after {
+    content: '';
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    right: -17px;
+    background-color: white;
+    border: 4px solid #FF9F55;
+    top: 15px;
+    border-radius: 50%;
+    z-index: 1;
+  }
   
+  /* Place the container to the left */
+  .left {
+    left: 0;
+  }
+  
+  /* Place the container to the right */
+  .right {
+    left: 50%;
+  }
+  
+  /* Add arrows to the left container (pointing right) */
+  .left::before {
+    content: " ";
+    height: 0;
+    position: absolute;
+    top: 22px;
+    width: 0;
+    z-index: 1;
+    right: 30px;
+    border: medium solid black;
+    border-width: 10px 0 10px 10px;
+    border-color: transparent transparent transparent black;
+  }
+  
+  /* Add arrows to the right container (pointing left) */
+  .right::before {
+    content: " ";
+    height: 0;
+    position: absolute;
+    top: 22px;
+    width: 0;
+    z-index: 1;
+    left: 30px;
+    border: medium solid black;
+    border-width: 10px 10px 10px 0;
+    border-color: transparent black transparent transparent;
+  }
+  
+  /* Fix the circle for containers on the right side */
+  .right::after {
+    left: -16px;
+  }
+  
+  /* The actual content */
+  .content {
+    padding: 20px 30px;
+    background-color: black;
+    position: relative;
+    border-radius: 6px;
+  }
+  
+  /* Media queries - Responsive projectline on screens less than 600px wide */
+  @media screen and (max-width: 600px) {
+    /* Place the timelime to the left */
+    .projectline::after {
+    left: 31px;
+    }
+    
+    /* Full-width containers */
+    .container {
+    width: 100%;
+    padding-left: 70px;
+    padding-right: 25px;
+    }
+    
+    /* Make sure that all arrows are pointing leftwards */
+    .container::before {
+    left: 60px;
+    border: medium solid black;
+    border-width: 10px 10px 10px 0;
+    border-color: transparent white transparent transparent;
+    }
+  
+    /* Make sure all circles are at the same spot */
+    .left::after, .right::after {
+    left: 15px;
+    }
+    
+    /* Make all right containers behave like the left ones */
+    .right {
+    left: 0%;
+    }
+}

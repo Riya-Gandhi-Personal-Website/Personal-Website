@@ -43,7 +43,7 @@ nav ul li a:hover {
     text-shadow: 0 0 30px rgba(0, 151, 178, .4);
 }
 
-
+/*style for index (home) page*/
 /* style to info*/
 .info {
     margin-left: 8%;
@@ -229,8 +229,6 @@ input[type=submit]:hover {
     margin-left: 10.5%;
     margin-top: 2%;
 }
-
-
 
 .conImg {
     width: 45%;

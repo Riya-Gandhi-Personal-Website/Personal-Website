@@ -133,6 +133,7 @@ span {
     border-radius: 5px;
     background-color: #f2f2f2;
     font-size: medium;
+    
 }
 
 .Container1 {
@@ -186,7 +187,14 @@ input[type=submit]:hover {
     background-color: #0097B2;
     box-shadow: 0 0 30px rgba(0, 151, 178, .4);
 }
-
+.icon{
+    display: flex;
+    margin-top: 8%;
+    margin-left: 17%;
+    gap: 100px;
+    flex-flow: row wrap;
+    
+}
 .icon .fa {
     padding: 12px;
     font-size: 40px;
@@ -194,6 +202,7 @@ input[type=submit]:hover {
     text-align: center;
     text-decoration: none;
     border-radius: 50%;
+    
 
 }
 
@@ -202,20 +211,6 @@ input[type=submit]:hover {
 
 }
 
-.fa-facebook {
-    background: #3B5998;
-    color: white;
-    margin-left: 12%;
-    margin-top: 4%;
-
-}
-
-.fa-instagram {
-    background: #E1306C;
-    color: white;
-    margin-left: 10%;
-
-}
 
 .fa-linkedin {
     background: #007bb5;
@@ -232,6 +227,7 @@ input[type=submit]:hover {
 }
 
 .conImg {
+   
     width: 45%;
     height: 48%;
     position: absolute;
@@ -248,15 +244,18 @@ input[type=submit]:hover {
 
 .conImg .myself1 {
     border-radius: 20%;
-    top: -51.1%;
-    height: 145%;
+    top: -89%;
+    height: 100%;
     margin-left: 140%;
+    z-index: 1;
 
 }
 
 .conImg .shape1 {
-    height: 135%;
+    height: 90%;
     margin-left: 133%;
+    z-index: 0;
+    top: -69%;
 
 }
 
@@ -397,3 +396,4 @@ input[type=submit]:hover {
     color: #0097B2;
     transform: rotateY(180deg);
 }
+

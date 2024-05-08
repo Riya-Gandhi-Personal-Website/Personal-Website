@@ -1,3 +1,5 @@
+
+
 /* style for logo*/
 .logo {
     position: relative;
@@ -5,7 +7,12 @@
     height: 10vh;
     margin-left: 50%;
     
-}
+}@media screen and (max-width: 600px) {
+    
+  }
+  
+
+
 
 
 /* style for the navigation (menu list) */
@@ -397,3 +404,7 @@ input[type=submit]:hover {
     transform: rotateY(180deg);
 }
 
+
+  
+
+  
